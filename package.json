@@ -8,8 +8,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/react-native-draggable-flatlist": "^1.1.1",
     "react": "16.8.6",
-    "react-native": "0.60.4"
+    "react-native": "0.60.4",
+    "react-native-draggable-flatlist": "^1.1.7"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
