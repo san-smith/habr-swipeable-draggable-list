@@ -5176,6 +5176,11 @@ react-native-draggable-flatlist@^1.1.7:
   resolved "https://registry.yarnpkg.com/react-native-draggable-flatlist/-/react-native-draggable-flatlist-1.1.7.tgz#d15cd84cfa924c8733114cb9d3324a5bdbcd7ec2"
   integrity sha512-HBYYfbDbf7iRuEnSPUfh7iyGltwqLe3OokYI2d6aWY+OUEPEnd9bmTBu8LISQag+9W91/sqKsp8fRAZtnVIsNg==
 
+react-native-swipe-list-view@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-swipe-list-view/-/react-native-swipe-list-view-2.0.0.tgz#031db12a52d3441715ff1d1e127a8aaee95c21aa"
+  integrity sha512-Lyoau882tcyWeZ/+8GOM0vi1obLbvHcVEM980D9/Qh9lQ/f2wJhbKM4pTXVBmJoWc+IDn31TRAenWzpGahEK8A==
+
 react-native@0.60.4:
   version "0.60.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.60.4.tgz#4378171e63dd5310497e15e54ec9185cb470752d"

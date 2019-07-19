@@ -9,18 +9,16 @@
  */
 
 import React, { Component } from 'react'
-import {
-  View,
-  Text,
-} from 'react-native'
+import { View } from 'react-native'
 import styles from './styles'
 import DraggableFlatList, { RenderItemInfo, OnMoveEndInfo } from 'react-native-draggable-flatlist'
 import ListItem from './components/ListItem'
 import fakeData from './fakeData.json'
 
-type Language = {
+export type Language = {
   id: number,
   name: string,
+  favorite: boolean,
 }
 
 interface AppProps {}
@@ -42,6 +40,13 @@ class App extends Component<AppProps, AppState> {
     this.setState({ data: data ? [...data] : [] })
   }
 
+  toggleFavorite = (value: Language) => {
+    const data = this.state.data.map(item => (
+      item.id !== value.id ? item : { ...item, favorite: !item.favorite }
+    ))
+    this.setState({ data })
+  }
+
   render() {
     return (
       <View style={styles.root}>
@@ -56,13 +61,14 @@ class App extends Component<AppProps, AppState> {
     )
   }
 
-  renderItem = ({ item,  move, moveEnd, isActive }: RenderItemInfo<Language>) => {
+  renderItem = ({ item, move, moveEnd, isActive }: RenderItemInfo<Language>) => {
     return (
       <ListItem
-        name={item.name}
+        item={item}
         move={move}
         moveEnd={moveEnd}
         isActive={isActive}
+        onHeartPress={() => this.toggleFavorite(item)}
       />
     )
   }

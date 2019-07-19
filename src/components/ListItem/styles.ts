@@ -23,4 +23,11 @@ export default StyleSheet.create({
 
     elevation: 7,
   },
+  hidden: {
+    height: 80,
+    backgroundColor: '#d6eadf',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    paddingRight: 80,
+  }
 })

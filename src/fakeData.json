@@ -1,38 +1,47 @@
 [
     {
         "id": 0,
-        "name": "JavaScript"
+        "name": "JavaScript",
+        "favorite": false
     },
     {
         "id": 1,
-        "name": "TypeScript"
+        "name": "TypeScript",
+        "favorite": false
     },
     {
         "id": 2,
-        "name": "Java"
+        "name": "Java",
+        "favorite": false
     },
     {
         "id": 3,
-        "name": "C#"
+        "name": "C#",
+        "favorite": false
     },
     {
         "id": 4,
-        "name": "C++"
+        "name": "C++",
+        "favorite": false
     },
     {
         "id": 5,
-        "name": "Python"
+        "name": "Python",
+        "favorite": false
     },
     {
         "id": 6,
-        "name": "Swift"
+        "name": "Swift",
+        "favorite": false
     },
     {
         "id": 7,
-        "name": "Dart"
+        "name": "Dart",
+        "favorite": false
     },
     {
         "id": 8,
-        "name": "Ruby"
+        "name": "Ruby",
+        "favorite": false
     }
 ]
