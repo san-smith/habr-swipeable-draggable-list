@@ -10,7 +10,7 @@
   "dependencies": {
     "@types/react-native-draggable-flatlist": "^1.1.1",
     "react": "16.8.6",
-    "react-native": "0.60.4",
+    "react-native": "0.62.3",
     "react-native-draggable-flatlist": "^1.1.7",
     "react-native-swipe-list-view": "^2.0.0"
   },
